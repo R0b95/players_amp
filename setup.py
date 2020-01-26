@@ -5,7 +5,7 @@ from setuptools import setup
 
 setup(
     name='player_amp',
-    version='0.2',
+    version='2.0',
     license='MIT',
     description='a little tool written in phyton to count all the active users',
     author='Strolch',
