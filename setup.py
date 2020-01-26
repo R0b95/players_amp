@@ -1,11 +1,11 @@
-# UsercountAmp
+# player_amp
 ### written in Phyton 3.8.1 by Strolch
 
 from setuptools import setup
 
 setup(
     name='player_amp',
-    version='2.0',
+    version='2.1',
     license='MIT',
     description='a little tool written in phyton to count all the active users',
     author='Strolch',

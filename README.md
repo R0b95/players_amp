@@ -1,5 +1,5 @@
-# UsercountAmp
-###written in Phyton 3.8.1 by Strolch
+# player_amp
+### written in Phyton 3.8.1 by Strolch
 a little tool written in phyton to count all the active users
 
 1. use player_amp.setserver to save the login data 

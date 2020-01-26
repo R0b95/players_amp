@@ -1,4 +1,4 @@
-# UsercountAmp
+# player_amp
 ### written in Phyton 3.8.1 by Strolch
 
 import os.path
@@ -13,7 +13,7 @@ filename = "settings.txt"
 # if the filepath exists the function will erase it and give it to the next function to save new settings
 # else the filepath not exists, the function will create the dirs, the file and give the file to the next function to save settings
 def setserver():
-    path = user_config_dir(appauthor="Strolch", appname="playeramp", roaming=False)
+    path = user_config_dir(appauthor="Strolch", appname="player_amp", roaming=False)
     filepath = os.path.join(path, filename)
 
     print(path)
@@ -23,7 +23,7 @@ def setserver():
         if input() == "ColaDose":
             savesettings(filepath)
         else:
-            print("Aktion abgebrochen")
+            print("cancelled!")
     else:
         print("preparing for the first configuration!\n")
         Path(path).mkdir(parents=True, exist_ok=True)

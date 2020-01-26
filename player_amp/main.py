@@ -1,4 +1,4 @@
-# UsercountAmp
+# player_amp
 ### written in Phyton 3.8.1 by Strolch
 
 import os.path
@@ -9,13 +9,12 @@ from appdirs import user_config_dir
 from player_amp import api_functions
 
 
-# reads settings.txt and save the data
-
 def main():
     try:
 
+        # reads settings.txt and save the data
         filename = "settings.txt"
-        path = user_config_dir(appauthor="Strolch", appname="playeramp", roaming=False)
+        path = user_config_dir(appauthor="Strolch", appname="player_amp", roaming=False)
         filepath = os.path.join(path, filename)
 
         file = open(filepath, mode='r')
