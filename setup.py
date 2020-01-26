@@ -10,8 +10,8 @@ setup(
     description='a little tool written in phyton to count all the active users',
     author='Strolch',
     author_email='hello.circles@gmail.com',
-    url="https://github.com/R0b95/UsercountAmp",
-    download_url='https://github.com/R0b95/UsercountAmp/archive/0.81.tar.gz',
+    url="https://github.com/R0b95/player_amp",
+    download_url='https://github.com/R0b95/player_amp/archive/2.0.tar.gz',
     keywords=['AMP', 'UserCount', 'ActiveUser', 'ActivePlayer'],
     packages=['player_amp', 'player_amp.api_functions'],
     entry_points="""
